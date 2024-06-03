@@ -1,4 +1,5 @@
 --Add a comment here that explains the purpose of the table and sample data being inserted
+--the purpose of this code, is to give off information. it's like a statistical database that shows the obvservations of time, and it's value for air quality.--
 CREATE TABLE observations (
     ID SERIAL PRIMARY KEY,
     SiteID INT,

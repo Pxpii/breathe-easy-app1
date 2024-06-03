@@ -1,4 +1,5 @@
 //Add a comment here to explain the overall purpose of this code
+//this code is for executing JavaScript code outside of a web browser. java script is good to give people access.
 require('dotenv').config();
 const express = require('express');
 const { Pool } = require('pg');

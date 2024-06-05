@@ -4,6 +4,7 @@ const { Pool } = require('pg');
 const router = express.Router();
 
 //comment on what this code (lines 7-13) does
+// lines 7-13 takes the users information to conecte to a database
 const pool = new Pool({
     user: process.env.DB_USER,
     host: process.env.DB_HOST,
